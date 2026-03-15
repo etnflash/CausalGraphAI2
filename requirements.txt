@@ -1,0 +1,10 @@
+# ESG Knowledge Graph extraction pipeline dependencies
+
+# Pydantic v2 for data validation and schema enforcement
+pydantic>=2.0,<3.0
+
+# Google Cloud Vertex AI SDK (includes Gemini model access)
+google-cloud-aiplatform>=1.49.0
+
+# Neo4j official Python driver
+neo4j>=5.0,<6.0
